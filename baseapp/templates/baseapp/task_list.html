@@ -1,0 +1,16 @@
+
+{% extends 'baseapp/base.html' %}
+
+{% block content %}
+<h3>Your Tasks</h3>
+<ul>
+    {% for task in tasks %}
+        <li>Title: {{ task.title }}</li>
+        <p>Description: {{ task.description }}</p>
+        <p>Assign By: {{ task.assigned_by }}</p>
+    {% empty %}
+        <li>No tasks available.</li>
+    {% endfor %}
+</ul>
+{% endblock %}
+
