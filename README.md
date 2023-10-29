@@ -1,6 +1,6 @@
 # task-assign-django
 Assign task in group of users using Django 
 
-Django Web Application to Assign Task
-Login Logout Feature
-Create Group and Assign task
+1. Django Web Application to Assign Task
+2. Login Logout Feature
+3. Create Group and Assign task
